@@ -1,0 +1,84 @@
+/* Chart */
+.Chart{
+    position: relative;
+}
+
+.Chart h1{
+    position: absolute;
+    left: 30px;
+    font-size: 24px;
+}
+.Chart .chartbox{
+    position: relative;
+}
+
+.Chart .chartbox p{
+    position: absolute;
+    left: 29px;
+    top: 65px;
+    font-size: 18px;
+}
+
+.Chart .chartbox span{
+    position: absolute;
+    left: 206px;
+    top: 65px;
+    font-size: 24px;
+    text-align: right;
+    color: #FF5F00;
+}
+
+.Chart input{
+    position: absolute;
+    width: 308px;
+    height: 28px;
+    left: 29px;
+    top: 140px;
+}
+
+.Chart .tit1{
+    position: absolute;
+    left: 29px;
+    top: 175px;
+    font-size: 18px;
+
+
+}
+
+.Chart .tit2{
+    position: absolute;
+    left: 30px;
+    top:400px;
+    font-size: 18px;
+}
+
+.Chart .barChart{
+    position: absolute;
+    width: 347px;
+    height: 198px;
+    top: 200px;
+    left: 10px;
+}
+
+.Chart .doughnut{
+    position: absolute;
+    width: 308px;
+    height: 308px;
+    top: 430px;
+    left: 10px;
+}
+
+.ChartUp{
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    height: 750px;
+}
+
+.close{
+    float: right;
+    margin-right: 20px;
+    border: none;
+    background: none;
+}

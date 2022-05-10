@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+body{
+    background-color: #c5c5c5;
+}
+
+.mySwiper{
+    width: 375px;
+    height: 812px;
+    background-color: #f4f4f4;
+    position: relative;
+    top: 50px;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* div.header */
+.header{
+    position: relative;
+    width: 327px;
+    height: 45px;
+    left: 27px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .icon{
+    padding: 9.5px 0;
+}
+
+.header .icon img{
+    padding-right: 18px;
+}
+
+.header .icon img:last-child{
+    padding-right: 0px;
+}
+
+.header h2{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+/* nav */
+nav{
+    position: absolute;
+    width: 375px;
+    height: 76px;
+    left: 0px;
+    top: 736px;
+    background: black;
+}
+
+nav ul{
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    margin-top: 24px;
+}

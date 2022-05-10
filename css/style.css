@@ -1,0 +1,200 @@
+/* div.account */
+.account{
+    margin-top: 33px;
+    position: absolute;
+    width: 373px;
+    height: 155px;
+    left: 0px;
+    top: 76px;
+}
+
+.account .box{
+    position: absolute;
+    left: 48px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 279px;
+    height: 155px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(226, 191, 66, 0.19);
+    border-radius: 12px;
+}
+
+.account .box span{
+    font-style: normal;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #858585;
+}
+
+.account .box span{
+    position: absolute;
+}
+
+.account .box span:nth-of-type(1){
+    left: 26.16%;
+    right: 25.26%;
+    top: 9.03%;
+    bottom: 77.42%;
+}
+
+.account .box span:nth-of-type(2){
+    left: 22.04%;
+    right: 21.22%;
+    top: 82.58%;
+    bottom: 3.87%;
+}
+
+.account p{
+    position: absolute;
+    left: 21.22%;
+    right: 21.22%;
+    top: 32.9%;
+    bottom: 43.87%;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.account strong{
+    font-size: 24px;
+}
+
+input{
+    position: absolute;
+    width: 202px;
+    height: 17px;
+    left: 32px;
+    top: 103px;
+}
+
+.transfer{
+    position: absolute;
+    width: 26px;
+    height: 21px;
+    left: 236px;
+    top: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+.chart{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 241px;
+    top: 98px;
+}
+
+.title{
+    position: absolute;
+    width: 262px;
+    height: 21px;
+    left: 55px;
+    top: 255px;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.title a{
+    padding-left: 3px;
+}
+
+
+/*scroll*/
+.scroll span{
+    position: absolute;
+    left: 43.2%;
+    right: 44%;
+    top: 1.12%;
+    bottom: 98.32%;
+    border-radius: 4px;
+    height: 5px;
+}
+
+.scroll .useUp{
+    position: absolute;
+    top: 1%;
+    bottom: 99%;
+    border-radius: 4px;
+}
+
+.scroll {
+    position: absolute;
+    left: 0px;
+    top: 310px;
+    width: 375px;
+    height: 2000px;
+    background-color: #fffbfb;
+    border-radius: 30px 30px 0 0;
+    transition: .5s;
+    color: white;
+}
+
+.scroll .box{
+    position: absolute;
+    display: flex;
+    width: 308px;
+    height: 65px;
+    left: 30px;
+    top: 40px;
+    overflow-x: scroll;
+}
+
+.scroll .box > li {
+    position: absolute;
+    width: 162px;
+    height: 47px;
+    background: #DADADA;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+  
+.scroll .box > li:first-child {
+    left: 0px;
+    top: 0px;
+  }
+  
+.scroll .box > li:nth-child(2) {
+    left: 175px;
+    top: 0px;
+  }
+  
+.scroll .box > li:last-child {
+    top: 0px;
+    left: 350px;
+    margin-right: 0px;
+    background-color: transparent;
+  }
+
+.scroll .box > li .text1{
+    width: 90px;
+    height: 37px;
+    border-radius: 6px 0px 0px 6px;
+    background: #b2b618;
+}
+
+.scroll .box > li .text2{
+    width: 100px;
+    height: 37px;
+    border-radius: 6px 0px 0px 6px;
+    background: #b26e2d;
+}
+
+.scroll .box > li p{
+    padding-top: 10px;
+    padding-left: 13px;
+    font-size: 12px;
+}
+
+.scroll .box > li strong{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    color: #b26e2d;
+    font-size: 15px;
+}
